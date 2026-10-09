@@ -1,10 +1,15 @@
-﻿Console.Clear();
+﻿//Porter Rasmussen, Lab 6 Mad Lib, 10/9/26
+Console.Clear();
 
-Console.WriteLine("Welcome to Mad Libs! \n I will ask you for various words and then create a funny story for you.\n");
+Console.WriteLine("Welcome to Mad Libs! \nI will ask you for various words and then create a funny story for you.");
+Console.WriteLine("Please enter the requested word types.\n");
+
 string baseStory = "One day, my (adjective) friend and I discovered a (adjective) map hidden inside a (noun). \nThe map pointed toward a mysterious castle located beyond the (plural_noun) and across a (adjective) river. \nWe packed a (noun), a (noun), and several (plural_noun) before beginning our adventure. \nAs we traveled, we spent hours (verb_ending_in_ing) and (verb_ending_in_ing) through the wilderness. \nSuddenly, a (adjective) creature jumped out from behind a (noun) and let out a loud (sound)! \nLuckily, my friend used a (noun) to scare it away. \nWhen we finally reached the castle, we found a giant room filled with (plural_noun) made of (material). \nIn the center stood a/an (adjective) treasure chest. \nI carefully opened it and discovered (number) (verb_ending_in_ing) (plural_noun) and a magical (noun). \nJust then, the castle began (verb_ending_in_ing). \nWe grabbed the treasure and ran (adverb) toward the exit. \nOutside, we celebrated by eating (plural_food) and playing (game) until sunset. \nIt was the most (adjective) adventure of my life, and I can't wait to go (verb_ending_in_ing) again!";
 //I had AI come up with a different base story than the one on the assignment.
+//Is there a way that I could have had my base story not be one gigantic line of code?
 string[] words = baseStory.Split(" ");
-Console.WriteLine(baseStory);
+
+//Check words.
 for (int i = 0; i < words.Length; i++)
 {
     if (words[i][0] == '(' )
@@ -32,7 +37,7 @@ for (int i = 0; i < words.Length; i++)
             temp = words[i].Trim(',');
         }
 
-//back to 
+//Finish asking for a word and add it back to the array.
         temp = temp.Trim('(', ')');
         if (temp[0] == 'a'|| temp[0] == 'e'|| temp[0] == 'i'|| temp[0] == 'o'|| temp[0] == 'u')
         {
@@ -46,10 +51,11 @@ for (int i = 0; i < words.Length; i++)
         {
             words[i] = Console.ReadLine() + punctuation.Item1;
         }
-        else words[i] = Console.ReadLine();
+        else words[i] = Console.ReadLine()!;
     }
 }
 
+//Print the finished story
 for (int i = 0; i<words.Length; i++)
 {
     Console.Write($"{words[i]} ");
