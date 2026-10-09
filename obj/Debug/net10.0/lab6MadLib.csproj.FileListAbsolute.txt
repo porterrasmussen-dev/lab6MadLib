@@ -1,0 +1,14 @@
+/Users/porter.rasmussen/mycoderepositories/lab6MadLib/bin/Debug/net10.0/lab6MadLib
+/Users/porter.rasmussen/mycoderepositories/lab6MadLib/bin/Debug/net10.0/lab6MadLib.deps.json
+/Users/porter.rasmussen/mycoderepositories/lab6MadLib/bin/Debug/net10.0/lab6MadLib.runtimeconfig.json
+/Users/porter.rasmussen/mycoderepositories/lab6MadLib/bin/Debug/net10.0/lab6MadLib.dll
+/Users/porter.rasmussen/mycoderepositories/lab6MadLib/bin/Debug/net10.0/lab6MadLib.pdb
+/Users/porter.rasmussen/mycoderepositories/lab6MadLib/obj/Debug/net10.0/lab6MadLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/porter.rasmussen/mycoderepositories/lab6MadLib/obj/Debug/net10.0/lab6MadLib.AssemblyInfoInputs.cache
+/Users/porter.rasmussen/mycoderepositories/lab6MadLib/obj/Debug/net10.0/lab6MadLib.AssemblyInfo.cs
+/Users/porter.rasmussen/mycoderepositories/lab6MadLib/obj/Debug/net10.0/lab6MadLib.csproj.CoreCompileInputs.cache
+/Users/porter.rasmussen/mycoderepositories/lab6MadLib/obj/Debug/net10.0/lab6MadLib.dll
+/Users/porter.rasmussen/mycoderepositories/lab6MadLib/obj/Debug/net10.0/refint/lab6MadLib.dll
+/Users/porter.rasmussen/mycoderepositories/lab6MadLib/obj/Debug/net10.0/lab6MadLib.pdb
+/Users/porter.rasmussen/mycoderepositories/lab6MadLib/obj/Debug/net10.0/lab6MadLib.genruntimeconfig.cache
+/Users/porter.rasmussen/mycoderepositories/lab6MadLib/obj/Debug/net10.0/ref/lab6MadLib.dll
