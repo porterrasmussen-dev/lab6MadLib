@@ -12,3 +12,4 @@
 /Users/porter.rasmussen/mycoderepositories/lab6MadLib/obj/Debug/net10.0/lab6MadLib.pdb
 /Users/porter.rasmussen/mycoderepositories/lab6MadLib/obj/Debug/net10.0/lab6MadLib.genruntimeconfig.cache
 /Users/porter.rasmussen/mycoderepositories/lab6MadLib/obj/Debug/net10.0/ref/lab6MadLib.dll
+/Users/porter.rasmussen/mycoderepositories/lab6MadLib/obj/Debug/net10.0/lab6MadLib.sourcelink.json

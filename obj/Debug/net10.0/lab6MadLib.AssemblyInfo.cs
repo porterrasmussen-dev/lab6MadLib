@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab6MadLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+678539d855187809f75efca3343bfd5379856dca")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab6MadLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab6MadLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

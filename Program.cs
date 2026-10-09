@@ -7,5 +7,22 @@ string[] words = baseStory.Split(" ");
 Console.WriteLine(baseStory);
 for (int i = 0; i < words.Length; i++)
 {
-    Console.WriteLine(words[i][0]);
+    if (words[i][0] == '(' )
+    {
+        string temp = words[i].Trim('(', ')', '.', '!');
+        if (temp[0] == 'a'|| temp[0] == 'e'|| temp[0] == 'i'|| temp[0] == 'o'|| temp[0] == 'u')
+        {
+            Console.WriteLine($"Please give me an {temp}. ");
+        }
+        else
+        {
+            Console.WriteLine($"Please give me a {temp}. ");
+        }
+        words[i] = Console.ReadLine();
+    }
+}
+
+for (int i = 0; i<words.Length; i++)
+{
+    
 }
